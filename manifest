@@ -1,14 +1,14 @@
 #! /bin/bash
 
-export VERSION="43"
-export SYSTEM_DESC="ChimeraOS"
-export SYSTEM_NAME="chimeraos"
-export USERNAME="gamer"
+export VERSION="01"
+export SYSTEM_DESC="khimaera"
+export SYSTEM_NAME="khimaera"
+export USERNAME="user"
 export SIZE="10000MB"
 export ARCHIVE_DATE=""
-export WEBSITE="https://chimeraos.org"
-export DOCUMENTATION_URL="https://chimeraos.org/about"
-export BUG_REPORT_URL="https://github.com/ChimeraOS/chimeraos/issues"
+export WEBSITE="https://"
+export DOCUMENTATION_URL="https://"
+export BUG_REPORT_URL="https://github.com/ChimeraOSKDE/chimeraos/issues"
 
 export KERNEL_PACKAGE="linux-chimeraos"
 export KERNEL_PACKAGE_ORIGIN="local"
@@ -31,7 +31,6 @@ export PACKAGES="\
 	eog \
 	epiphany \
 	ethtool \
-	evtest \
 	ffmpeg \
 	file-roller \
 	firejail \
@@ -41,17 +40,23 @@ export PACKAGES="\
 	fuse2 \
 	gamemode \
 	git \
-	gnome-console \
-	gnome-control-center \
-	gnome-disk-utility \
-	gnome-keyring \
-	gnome-session \
-	gnome-shell \
-	gnome-software \
-	gnome-text-editor \
+	plasma-meta \
+	plasma-wayland-session \
+	kde-accessibility-meta \
+	kde-graphics-meta \
+	kde-multimedia-meta \
+	kde-network-meta \
+	kde-office-meta \
+	kde-pim-meta \
+	kde-sdk-meta \
+	kde-system-meta \
+	kde-utilities-meta \
+	kdevelop-meta \
+	egl-wayland \
 	gst-plugin-pipewire \
 	haveged \
 	htop \
+	iio-sensor-proxy \
 	intel-gpu-tools \
 	intel-media-driver \
 	intel-ucode \
@@ -68,14 +73,12 @@ export PACKAGES="\
 	lib32-libva-intel-driver \
 	lib32-libva-mesa-driver \
 	lib32-libva-vdpau-driver \
-	lib32-mesa \
 	lib32-mesa-vdpau \
 	lib32-nvidia-utils \
 	lib32-openal \
 	lib32-pipewire \
 	lib32-systemd \
 	lib32-vulkan-icd-loader \
-	lib32-vulkan-intel \
 	lib32-vulkan-radeon \
 	libcurl-gnutls \
 	libidn11 \
@@ -100,13 +103,11 @@ export PACKAGES="\
 	libva-mesa-driver \
 	libva-vdpau-driver \
 	libxcrypt-compat \
-	libxss \
 	lightdm \
 	linux-firmware \
 	liquidctl \
 	logrotate \
 	lshw \
-	mesa \
 	mesa-demos \
 	mesa-vdpau \
 	nano \
@@ -126,6 +127,7 @@ export PACKAGES="\
 	podman \
 	pulsemixer \
 	python \
+	python-gobject \
 	python-inotify-simple \
 	retroarch \
 	rsync \
@@ -140,10 +142,8 @@ export PACKAGES="\
 	usbutils \
 	vim \
 	vulkan-icd-loader \
-	vulkan-intel \
 	vulkan-radeon \
 	wavpack \
-	wget \
 	which \
 	wireplumber \
 	wqy-zenhei \
@@ -162,7 +162,6 @@ export PACKAGE_OVERRIDES="\
 
 export AUR_PACKAGES="\
 	ayaled \
-	asus-cirrus-firmware-git \
 	bcm20702a1-firmware \
 	boxtron \
 	chimera \
@@ -183,7 +182,7 @@ export AUR_PACKAGES="\
 	nintendo-udev \
 	opengamepadui-bin \
 	opengamepadui-session-git \
-	oxp-sensors-dkms-git \
+	oxp-platform-dkms-git \
 	pikaur \
 	python-vdf \
 	r8152-dkms \
@@ -197,8 +196,8 @@ export AUR_PACKAGES="\
 	ryzenadj-controller-git \
 	rz608-fix-git \
 	steam-removable-media-git \
-	ttf-kanit \
 	wyvern \
+	xone-dkms \
 	xpad-noone-dkms \
 	xpadneo-dkms \
 "
